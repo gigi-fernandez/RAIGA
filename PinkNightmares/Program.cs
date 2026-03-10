@@ -97,5 +97,6 @@ if (app.Environment.IsDevelopment())
 AuthRoutes.Map(app);
 UserRoutes.Map(app);
 ImageGenRoutes.Map(app);
+TextGenRoutes.Map(app);
 
 app.Run();

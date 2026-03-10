@@ -96,6 +96,6 @@ if (app.Environment.IsDevelopment())
 // Mapping app to endpoints
 AuthRoutes.Map(app);
 UserRoutes.Map(app);
-StaticGenRoutes.Map(app);
+ImageGenRoutes.Map(app);
 
 app.Run();
